@@ -9,7 +9,7 @@ npm install --save is-iterator-like
 
 ## Explanation
 
-This uses simple duck-typing methods to check whether a value comes in the form of an iterator has - anything with a "next" property that can be called as a function. It isn't a sure-fire test whether a value truly implements iterator protocol, which can't be done reliably; the only way to know that for sure is to use it as an iterator. However, this method *is* suitable for tests, or to catch any blatantly incorrect inputs that you expect to be iterators.
+This uses simple duck-typing methods to check whether a value comes in the form of an iterator - anything with a "next" property that can be called as a function. It isn't a sure-fire test whether a value truly implements iterator protocol, which can't be done reliably; the only way to know that for sure is to use it as an iterator. However, this method *is* suitable for tests, or to catch any blatantly incorrect inputs that you expect to be iterators.
 
 ## Usage
 
