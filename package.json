@@ -1,0 +1,34 @@
+{
+  "name": "is-iterator-like",
+  "version": "1.0.0",
+  "description": "Use duck-typing to check whether an object has the form of an iterator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaawerth/is-iterator-like.git"
+  },
+  "keywords": [
+    "iterator",
+    "type",
+    "check",
+    "is-iterator",
+    "is-iterator-like"
+  ],
+  "author": "Jesse Wertheim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaawerth/is-iterator-like/issues"
+  },
+  "homepage": "https://github.com/jaawerth/is-iterator-like",
+  "dependencies": {
+    "is-callable": "^1.0.4"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "es6-shim": "^0.32.1",
+    "mocha": "^2.2.5"
+  }
+}
