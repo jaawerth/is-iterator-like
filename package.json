@@ -1,6 +1,6 @@
 {
   "name": "is-iterator-like",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Use duck-typing to check whether an object has the form of an iterator",
   "main": "index.js",
   "scripts": {
