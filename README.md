@@ -3,7 +3,9 @@ Use duck typing to check whether a Javascript object has the form of an ES6 iter
 
 ## Install
 
-Will soon be published on npm.
+```javascript
+npm install --save is-iterator-like
+```
 
 ## Explanation
 
